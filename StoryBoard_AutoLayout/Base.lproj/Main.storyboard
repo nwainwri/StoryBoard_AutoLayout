@@ -17,7 +17,21 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LT9-mY-OxD">
+                                <rect key="frame" x="50" y="597" width="305" height="50"/>
+                                <color key="backgroundColor" red="0.70457050139999999" green="0.087051199080000002" blue="0.70946000649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="305" id="AAF-qN-Ygb"/>
+                                    <constraint firstAttribute="height" constant="50" id="Bf2-aF-mBK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.83031088082901561" blue="0.019783064747657068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LT9-mY-OxD" secondAttribute="trailing" constant="20" id="2Gj-88-4a1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LT9-mY-OxD" secondAttribute="bottom" constant="20" id="sJz-nv-dKa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
